@@ -1,0 +1,34 @@
+{
+  "name": "NoteWiki",
+  "version": "0.0.1",
+  "description": "A wiki-style note taking app.",
+  "main": "main.js",
+  "scripts": {
+    "pack": "build --dir --win --mac",
+    "dist": "build --win --mac"
+  },
+  "postinstall": "install-app-deps",
+  "author": "Abe Fehr",
+  "license": "MIT",
+  "build": {
+    "appId": "com.abefehr.notewiki",
+    "mac": {
+      "category": "public.app-category.productivity"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "extraResources": [
+      "files/_.md"
+    ]
+  },
+  "dependencies": {
+    "electron-directory": "0.0.3",
+    "electron-routes": "^1.0.0",
+    "fs-extra": "^2.1.2",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2"
+  }
+}
