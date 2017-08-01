@@ -1,4 +1,4 @@
-# NoteWiki
+[![NoteWiki](https://raw.githubusercontent.com/abejfehr/notewiki-app/master/logo.png)](https://www.abefehr.com/notewiki/)
 
 A note-taking app that lets you create your own, personal wiki.
 
